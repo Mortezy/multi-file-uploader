@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Upload File</title>
+</head>
+
+<body>
+    <h2>Upload File</h2>
+    <form method="POST" action="process.php" enctype="multipart/form-data">
+        <label>Upload Your Images:</label><br><br>
+        <label>Image(s): </label>
+        <input type="file" name="images[]" multiple><br><br>
+        <button type="submit">Submit</button>
+    </form>
+</body>
+
+</html>
