@@ -14,6 +14,7 @@ A simple PHP project to upload **multiple image files** with validation and secu
 
 ## 📂 Project Structure
 
+```
 multi-file-uploader-php/
 │
 ├── uploads/ # Uploaded files saved here (auto-created)
@@ -21,7 +22,7 @@ multi-file-uploader-php/
 ├── process.php # Server-side processing
 ├── functions.php # (Optional) Reusable functions
 └── README.md # You're reading it!
-
+```
 ## 📋 Requirements
 
 - [XAMPP](https://www.apachefriends.org/) or similar local server with PHP ≥ 7.2
